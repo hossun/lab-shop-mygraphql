@@ -1,13 +1,13 @@
 const resolvers = {
     Order: {
         // set Query
-    }
+    },
     Inventory: {
         // set Query
-    }
+    },
     Delivery: {
         // set Query
-    }
+    },
 
     Query: {
         order : async (_, { id }, { dataSources }) => {
